@@ -48,9 +48,10 @@ W baterii + jest przy krótkiej kresce
 2. Suma spadków napięć (np. od resistora), musi być równa napięciu zasilającemu
 ## Prawo Ohma  
 I = U / R  
-Czyli, gdy mamy opornik(resistor) **R**, pochloni on tyle napięcia wyjściowego **U**, że na wyjściu będziemy mieć napięcie **I** równe **I = U / R**  
-` Opór jest mierzony w Omach `  
+Czyli, gdy mamy opornik(resistor) **R**, pochloni on tyle napięcia wyjściowego **U**, że na wyjściu będziemy mieć napięcie **I** takie, że **I = U / R**   
 ![](ohm.gif)  
+
+` Opór jest mierzony w Omach `   
 
 
 
