@@ -22,7 +22,7 @@ jony dodatnie to kationy, a jony ujemne to aniony.
 ### Dysocjacja 
 to kiedy cząsteczka rozpada sie na dwie rożne
 
-Na przykładzie wody:
+Na przykładzie wody:  
 NaCl : Chloryksod  
 C13H22O11 : Sacharoza  
 Gdy powyższe dodamy w wodę odbywa sie dysocjacja  
