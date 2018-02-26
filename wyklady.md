@@ -4,7 +4,7 @@
 
 Obecnosc na wykladzie - obowiazkowo
 
-[liza](liza.umcs.lublin.pl/~skotyra)
+[liza](http://liza.umcs.lublin.pl/~skotyra)
 
 ## logowanie
 uzytkownik: ASyKo
