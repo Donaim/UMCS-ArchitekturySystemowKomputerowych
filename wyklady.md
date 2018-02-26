@@ -26,7 +26,7 @@ Na przykładzie wody:
 NaCl : Chloryksod  
 C13H22O11 : Sacharoza  
 Gdy powyższe dodamy w wodę odbywa sie dysocjacja  
-H2O Jest nie-symetryczna, to powoduje, że jest ona bardziej pozytywna z jednej strony (H+)
+H2O Jest nie-symetryczna, to powoduje, że jest ona bardziej pozytywna z jednej strony (H+)  
 ![](h2o.jfif)  
 Przez co, Cl- przyciągany jest do H+, a Na+ jest przyciągany do O-, i tak się rozdzielia  
 W przypadku C13H22O11 -> C13H22O11 (nie zmienia się)  
@@ -49,8 +49,8 @@ W baterii + jest przy krótkiej kresce
 ## Prawo Ohma  
 I = U / R  
 Czyli, gdy mamy opornik(resistor) **R**, pochloni on tyle napięcia wyjściowego **U**, że na wyjściu będziemy mieć napięcie **I** równe **I = U / R**  
-` Opór jest mierzony w Omach ` 
-![](ohm.gif)
+` Opór jest mierzony w Omach `  
+![](ohm.gif)  
 
 
 
