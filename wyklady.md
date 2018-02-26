@@ -6,7 +6,7 @@ Obecnosc na wykladzie - obowiazkowo
 
 [liza](liza.umcs.lublin.pl/~skotyra)
 
-## logowanie
+### logowanie
 uzytkownik: ASyKo
 haslo:      asYkO
 
