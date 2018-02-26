@@ -7,8 +7,8 @@ Obecnosc na wykladzie - obowiazkowo
 [liza](liza.umcs.lublin.pl/~skotyra)
 
 ### logowanie
-uzytkownik: ASyKo
-haslo:      asYkO
+uzytkownik: ASyKo  
+haslo:      asYkO  
 
 # Prąd
 to jest uporządkowany ruch elektronów lub jonów  
