@@ -16,3 +16,6 @@ Krótko: w sieci statycznej - tak (np. błyskawica), w obwodzie - nie (bo się r
 Krótko: im większa rezystencja, tym wolniej poruszają się elektrony w przewodniku.  
 Jak szybko się poruszają? W miedzi: ~1570m/s  
 
+[jak bateria stwarza różnicę potencjałów?](https://physics.stackexchange.com/questions/184848/how-is-a-potential-difference-created-between-two-points)  
+Krótko: chemiczna reakcja w baterii stwarza siłe przyciągającą elektrony do strony oznaczonej -, skąd oni wędrują po obwodzie w celu "wyrównać gęstość" negatywnych i pozytywnych cząsteczek
+
