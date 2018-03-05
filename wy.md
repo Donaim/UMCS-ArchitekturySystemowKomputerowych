@@ -55,18 +55,20 @@ Czyli, gdy mamy opornik(resistor) **R**, pochloni on tyle napięcia wyjściowego
 `05.03.18`
 
 ![](omawykres.svg.png)
-Jak widać z wykresu, dla zwykłych oporników, jest to prosta funckja liniowa o współczynniku 1/R  
+Jak widać z wykresu, dla zwykłych oporników, prawo oma jest to po prostu funckja liniowa o współczynniku 1/R.  
+Ale prawo oma nie jest liniowe dla baterii i diodów  
 
 
 ## Kondensator
 
 ![](falaprostokatna.jpeg) Fala prostokątna
 
-Zasiłanie nie jest liniowe także dla kondensatora. Jego zasilanie i rozładowanie wygląda tak:  
+Prawo oma też nie jest liniowe dla kondensatora. Jego zasilanie i rozładowanie wygląda tak:  
+![](capacitor2.jpg)  
 ![](capacitor.gif)  
 Energia zgromadzona przez kondensator to energia pola elektrycznego  
 
-Są dwa typy zasiłania: całkujący i różniczkujący
+Typy zasilania kondensatora = całkujący ∪ różniczkujący
 
 Niech:
 
