@@ -61,6 +61,8 @@ Ale prawo oma nie jest liniowe dla baterii i diodów
 
 ## Kondensator
 
+![](capacitor.sym.png) Symbol
+
 ![](falaprostokatna.jpeg) Fala prostokątna
 
 Prawo oma też nie jest liniowe dla kondensatora. Jego zasilanie i rozładowanie wygląda tak:  
@@ -103,15 +105,19 @@ Polega na tym, że zmienność napięcia na źródle napięcią jest _zgładzana
 Widać też, że dolny wykres jest _z opóźnieniem_, oznacza to że ma zmieszczoną fazę
 
 ## Cewka (Element indukcyjny)  
+![](inductor.sym.png) Symbol
+
 Przechowuje energie w postaci pola magnetycznego  
+Jest w jakimś stopniu przeciwieństwem kondynsatora  
+Dużo rzeczy komplikuje, dlatego jej często się unika, jak np. na kursie architektur UMCS  
 
 
 # Elementy półprzewodnikowe
 ## Def: półprzewodniki
 
         "Są to substacje których konduktywność może być zmieniana w szerokim zakresie.
-         Czyli mogą pełnić role jak przewodników tak i izolatorów.
-         Konduktywność zależy m. in. od temperatury, oświetlenia, innych elementów (domieszków)"  
+         Czyli mogą pełnić role przewodników bądź izolatorów.
+         Ich konduktywność zależy m. in. od temperatury, oświetlenia, innych elementów (domieszków)"  
   
     Półprzewodniki = Samoistne || Domieszkowane
 
