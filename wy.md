@@ -61,7 +61,8 @@ Ale prawo oma nie jest liniowe dla baterii i diodów
 
 ## Kondensator
 
-![](falaprostokatna.jpeg) Fala prostokątna
+![](capacitor.sym.png) Symbol
+
 
 Prawo oma też nie jest liniowe dla kondensatora. Jego zasilanie i rozładowanie wygląda tak:  
 ![](capacitor2.jpg)  
@@ -96,6 +97,14 @@ NOTE:
 
 Przy 5 × R × C przyjmujemy, że kondensator jest całkowicie naładowany, chociaż jak to wynika z równania, w rzeczywistości nigdy nie jest całkowicie naładowany.
 
+### Fala prostokątna
+Tak wygląda fala prostokątna:  
+![](falaprostokatna.jpeg) 
+
+A tak wygląda zasilanie kondensatora na fonie fali prostokątnej:  
+![](capacitor_prostokatny.png)  
+![](capacitor_prostokatny_i.png)  
+
 ### Filtr dolnoprzepustowy
 [_low-pass-filter_](https://en.wikipedia.org/wiki/Low-pass_filter)  
 Polega na tym, że zmienność napięcia na źródle napięcią jest _zgładzana_ przez kondensator  
@@ -103,15 +112,19 @@ Polega na tym, że zmienność napięcia na źródle napięcią jest _zgładzana
 Widać też, że dolny wykres jest _z opóźnieniem_, oznacza to że ma zmieszczoną fazę
 
 ## Cewka (Element indukcyjny)  
+![](inductor.sym.png) Symbol
+
 Przechowuje energie w postaci pola magnetycznego  
+Jest w jakimś stopniu przeciwieństwem kondynsatora  
+Dużo rzeczy komplikuje, dlatego jej często się unika, jak np. na kursie architektur UMCS  
 
 
 # Elementy półprzewodnikowe
 ## Def: półprzewodniki
 
         "Są to substacje których konduktywność może być zmieniana w szerokim zakresie.
-         Czyli mogą pełnić role jak przewodników tak i izolatorów.
-         Konduktywność zależy m. in. od temperatury, oświetlenia, innych elementów (domieszków)"  
+         Czyli mogą pełnić role przewodników bądź izolatorów.
+         Ich konduktywność zależy m. in. od temperatury, oświetlenia, innych elementów (domieszków)"  
   
     Półprzewodniki = Samoistne ∪ Domieszkowane
 

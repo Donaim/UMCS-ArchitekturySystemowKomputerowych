@@ -63,7 +63,6 @@ Ale prawo oma nie jest liniowe dla baterii i diodów
 
 ![](capacitor.sym.png) Symbol
 
-![](falaprostokatna.jpeg) Fala prostokątna
 
 Prawo oma też nie jest liniowe dla kondensatora. Jego zasilanie i rozładowanie wygląda tak:  
 ![](capacitor2.jpg)  
@@ -97,6 +96,14 @@ NOTE:
     R * C : sekundy
 
 Przy 5 * R * C przyjmujemy, że kondensator jest całkowicie naładowany, chociaż jak to wynika z równania, w rzeczywistości nigdy nie jest całkowicie naładowany.
+
+### Fala prostokątna
+Tak wygląda fala prostokątna:  
+![](falaprostokatna.jpeg) 
+
+A tak wygląda zasilanie kondensatora na fonie fali prostokątnej:  
+![](capacitor_prostokatny.png)  
+![](capacitor_prostokatny_i.png)  
 
 ### Filtr dolnoprzepustowy
 [_low-pass-filter_](https://en.wikipedia.org/wiki/Low-pass_filter)  
