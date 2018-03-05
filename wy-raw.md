@@ -1,5 +1,5 @@
 
-` 26.02.18`
+` 26.02.18` `wy1`
 # organizacja
 
 Obecnosc na wykladzie - obowiązkowo
@@ -52,7 +52,7 @@ Opór R jest mierzony w Omach
 Czyli, gdy mamy opornik(resistor) **R**, pochloni on tyle napięcia wyjściowego **V**, że na wyjściu będziemy mieć napięcie **I** takie, że **I = V / R**   
 ![](ohm.gif)  
 
-`05.03.18`
+`05.03.18` `wy2`
 
 ![](omawykres.svg.png)
 Jak widać z wykresu, dla zwykłych oporników, prawo oma jest to po prostu funckja liniowa o współczynniku 1/R.  
