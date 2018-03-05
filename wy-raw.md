@@ -63,10 +63,12 @@ Ale prawo oma nie jest liniowe dla baterii i diody
 
 ![](capacitor.sym.png) Symbol
 
+Jest elementem biernym  
+C = pojemność kondensatora mierzona w Faradach. Jest to inaczej zdolność do utrzymania ładunku  
 
-Prawo oma też nie jest liniowe dla kondensatora. Jego zasilanie i rozładowanie wygląda tak:  
+Prawo oma też nie jest liniowe dla kondensatora. Jego zasilanie wygląda tak:  
 ![](capacitor.gif)  
-Energia zgromadzona przez kondensator to energia pola elektrycznego  
+Energia zgromadzona przez kondensator to energia pola elektrycznego które utrzymuje ładunki na okładkach kondensatora  
 
 Typy zasilania kondensatora = całkujący || różniczkujący
 
@@ -89,10 +91,8 @@ Wtedy:
 
     U[c] = U[z] * (1 - e ^ (-t / (R * C)))
 
-NOTE:
-
-    R * C = stała czasowa
     R * C : sekundy
+    R * C = stała czasowa
 
 Przy 5 * R * C przyjmujemy, że kondensator jest całkowicie naładowany, chociaż jak to wynika z równania, w rzeczywistości nigdy nie jest całkowicie naładowany.
 
@@ -115,7 +115,7 @@ Widać też, że dolny wykres jest _z opóźnieniem_, oznacza to że ma zmieszcz
 
 Przechowuje energie w postaci pola magnetycznego  
 Jest w jakimś stopniu przeciwieństwem kondynsatora  
-Dużo rzeczy komplikuje, dlatego jej często się unika, jak np. na kursie architektur UMCS  
+Dużo rzeczy komplikuje, dlatego jej często się unika, jak też np. w kursie architektur na UMCS  
 
 
 # Elementy półprzewodnikowe
@@ -127,7 +127,6 @@ Dużo rzeczy komplikuje, dlatego jej często się unika, jak np. na kursie archi
   
     Półprzewodniki = Samoistne || Domieszkowane
 
-Si : Samoistne  
 
 
 
