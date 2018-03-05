@@ -79,7 +79,7 @@ Niech:
     t = czas
 Wtedy:
 
-    U = (I * t) / (C)
+    U = (I * t) / C
 
 Niech zatem:
 
