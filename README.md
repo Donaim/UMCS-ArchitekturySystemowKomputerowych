@@ -1,2 +1,2 @@
-# [wykłady](wyklady.md)
+# [wykłady](wy.md)
 # [czwiczenia](cz.md)
