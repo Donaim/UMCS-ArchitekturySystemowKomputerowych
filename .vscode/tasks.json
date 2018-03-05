@@ -1,0 +1,32 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "replace",
+            "type": "shell",
+            "linux": {
+                "command": "python3"
+            },
+            "windows": {
+                "command": "py"
+            },
+            "args": [
+                "replace.lnk.py",
+                "wy-raw.md",
+                "wy.md"
+            ],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "shared"
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
