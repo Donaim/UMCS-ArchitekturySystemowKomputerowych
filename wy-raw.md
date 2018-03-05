@@ -65,7 +65,6 @@ Ale prawo oma nie jest liniowe dla baterii i diodów
 
 
 Prawo oma też nie jest liniowe dla kondensatora. Jego zasilanie i rozładowanie wygląda tak:  
-![](capacitor2.jpg)  
 ![](capacitor.gif)  
 Energia zgromadzona przez kondensator to energia pola elektrycznego  
 
