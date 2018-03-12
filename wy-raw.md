@@ -121,13 +121,63 @@ Dużo rzeczy komplikuje, dlatego jej często się unika, jak też np. w kursie a
 # Elementy półprzewodnikowe
 ## Def: półprzewodniki
 
-        "Są to substacje których konduktywność może być zmieniana w szerokim zakresie.
-         Czyli mogą pełnić role przewodników bądź izolatorów.
-         Ich konduktywność zależy m. in. od temperatury, oświetlenia, innych elementów (domieszków)"  
-  
+    Są to substacje których konduktywność może być zmieniana w szerokim zakresie.
+    Czyli mogą pełnić role przewodników bądź izolatorów.
+    Ich konduktywność zależy m. in. od temperatury, oświetlenia, innych elementów (domieszków)  
+---
     Półprzewodniki = Samoistne || Domieszkowane
 
 
+{ Si _(krzem)_, Al _(glin)_, Ge } <: Półprzewodniki samoistne
+
+<!-- układy scalone -->
+
+`12.03.18` `wy3`
+
+## Struktura półprzewodników samoistnych
+
+Przyjmuje się, że w temperaturze zera bezwzględnego w _paśmie przewodnictwa_ nie ma elektronów, natomiast w wyższej temperaturze powstają pary elektron–dziura; im większa wartość temperatury, tym więcej takich par jest generowanych.  
+
+Na przykładzie Si:  
+Jak mamy temperaturę = Abs 0, każdy atom Si ma 4 elektrony na powłoce wałencyjnej. Atomy Si tworzą sieć gdzie każdy z 4 elektronów ma powiązanie z elektronem sąsiadującego atomu Si.  
+![](assets/si_siatka.jpg)  
+Natomiast gdy temperatura zwiększa się, niektóre z tych elektronów zrywają połączenia, tworząc na tym miejscu **dziurę**  
 
 
+### Def :: powłoka wałencyjna
+Jest to ostatnia, najdalej odsunięta od jądra powłoka elektronowa atomu. Elektrony na niej są najsłabiej związane z atomem przez co mogą przemieszczać się między sąsiadujące atomy i uczestniczyć w tworzeniu wiązań chemicznych. W przypadku elektronów znajdujących się niżej zazwyczaj nie jest to możliwe, choć są od tego liczne wyjątki.
+### Def :: pasmo przewodnictwa
+Jest to z analogii obszar w którym elektrony są najsłabiej powiązane z atomem i swobodnie przemieszczają się między nimi.  
 
+![](assets/pasma_polprzewodniki.png "wiki")  
+
+<!-- po co domieszkowanie -->
+
+## Domieszkowanie
+Oznacza to, że dodamy do połprzewodników samoistnych innych elementów **z tego samego [okresu](https://pl.wikipedia.org/wiki/Uk%C5%82ad_okresowy_pierwiastk%C3%B3w#Wygl%C4%85d_wsp%C3%B3%C5%82czesnego_uk%C5%82adu_okresowego)** układu pierwiastków.  
+
+<!-- typ N i typ P -->
+Efekt będzie zależać od tego czy dodane pierwiastki mają więcej elektronów na powłoce wałencyjnej, czy mniej.  
+- **Więcej**  
+    Jeśli do Si, który ma 4 elektrony, dodamy P, który ma 5, okaże się, że podczas tworzenia sieci, dla tego 1 nadmiarowego elektronu już nie będzie miejsca na powłoce wałencyjnej i przejdzie on na poziom wyżej (poziom _donorowy_), a to też oznacza, że nie będzie tak on mocno przywiązany do jednego miejsca w wyniku czego takie połączenie Si+P zmniejsza opór przewodnika.  
+    Takiego typu połączenie nazywamy **typu N** (bo są nadmiarowe elektrony -> Negative potential)   
+- **Mniej**  
+    Jeśli do tego samego Si dodamy Al, który ma 3 elektrony na powłoce wałencyjnej, wtedy w połączeniach między Si a Al będzie brakowało jednego elektronu, co nazywamy _dziurą_. W wyniku utworzenia wolnych miejsc, tutaj podobnie powstaje nowy poziom - _akceptorowy_ co sprzyja szybszemu przemieszczeniu elektronów(dziur) (czyli mniejszej oporności). Tego typu półprzewodniki nazywamy "tupy P" (od Positive bo brakuje elektronów)  
+
+<!-- okresy vs grupy w tablicy pierwiastkow --> <!-- nie będe  -->
+<!-- co to są dziury --> <!-- też ominę -->
+## Zalety domieszkowania
+Jak już było wspomniano, domieszkowanie zmniejsza opór samoistnych półprzewodników, natomiast najwyższa użyteczność powstaje przy połączeniu dwóch materiałów o typie P i typie N.  
+
+<!-- co to jest dioda -->
+## Dioda
+![](assets/dioda-sym.png) (K: katoda-, A: Anoda+)
+
+Najbardziej ciekawą częścią diody, jest obszar styku materiałów o typie P i N. Odbywa się na tym obrzaże tzw. _rekombinacja_ elektronów i dziur, co znaczy, że elektrony materiału o typie N, uzyskują dostęp do niższych poziomów w miejscach połączenia pierwiastków materiału typu P, gdzie domyślnie są dziury. Naturalnie powstaje ruch elektronów (=prąd) i uwolnienie energii w postaci światła (najczęściej).  
+
+<!-- podłączenie baterii do diody -->
+## Dioda + bateria
+Dioda przepuszcza prąd tylko w jednym kierunku.
+
+<!-- równanie przewodności diody -->
+<!-- zastosowanie diody -->
