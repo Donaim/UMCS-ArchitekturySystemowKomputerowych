@@ -151,12 +151,9 @@ Jest to z analogii obszar w którym elektrony są najsłabiej powiązane z atome
 
 ![](assets/pasma_polprzewodniki.png "wiki")  
 
-<!-- po co domieszkowanie -→
-
 ## Domieszkowanie
 Oznacza to, że dodamy do połprzewodników samoistnych innych elementów **z tego samego [okresu](https://pl.wikipedia.org/wiki/Uk%C5%82ad_okresowy_pierwiastk%C3%B3w#Wygl%C4%85d_wsp%C3%B3%C5%82czesnego_uk%C5%82adu_okresowego)** układu pierwiastków.  
 
-<!-- typ N i typ P -→
 Efekt będzie zależać od tego czy dodane pierwiastki mają więcej elektronów na powłoce wałencyjnej, czy mniej.  
 - **Więcej**  
     Jeśli do Si, który ma 4 elektrony, dodamy P, który ma 5, okaże się, że podczas tworzenia sieci, dla tego 1 nadmiarowego elektronu już nie będzie miejsca na powłoce wałencyjnej i przejdzie on na poziom wyżej (poziom _donorowy_), a to też oznacza, że nie będzie tak on mocno przywiązany do jednego miejsca w wyniku czego takie połączenie Si+P zmniejsza opór przewodnika.  
@@ -164,20 +161,13 @@ Efekt będzie zależać od tego czy dodane pierwiastki mają więcej elektronów
 - **Mniej**  
     Jeśli do tego samego Si dodamy Al, który ma 3 elektrony na powłoce wałencyjnej, wtedy w połączeniach między Si a Al będzie brakowało jednego elektronu, co nazywamy _dziurą_. W wyniku utworzenia wolnych miejsc, tutaj podobnie powstaje nowy poziom - _akceptorowy_ co sprzyja szybszemu przemieszczeniu elektronów(dziur) (czyli mniejszej oporności). Tego typu półprzewodniki nazywamy "tupy P" (od Positive bo brakuje elektronów)  
 
-<!-- okresy vs grupy w tablicy pierwiastkow -→ <!-- nie będe  -→
-<!-- co to są dziury -→ <!-- też ominę -→
 ## Zalety domieszkowania
 Jak już było wspomniano, domieszkowanie zmniejsza opór samoistnych półprzewodników, natomiast najwyższa użyteczność powstaje przy połączeniu dwóch materiałów o typie P i typie N.  
 
-<!-- co to jest dioda -→
 ## Dioda
 ![](assets/dioda-sym.png) (K: katoda-, A: Anoda+)
 
 Najbardziej ciekawą częścią diody, jest obszar styku materiałów o typie P i N. Odbywa się na tym obrzaże tzw. _rekombinacja_ elektronów i dziur, co znaczy, że elektrony materiału o typie N, uzyskują dostęp do niższych poziomów w miejscach połączenia pierwiastków materiału typu P, gdzie domyślnie są dziury. Naturalnie powstaje ruch elektronów (=prąd) i uwolnienie energii w postaci światła (najczęściej).  
 
-<!-- podłączenie baterii do diody -→
 ## Dioda + bateria
 Dioda przepuszcza prąd tylko w jednym kierunku.
-
-<!-- równanie przewodności diody -→
-<!-- zastosowanie diody -→
