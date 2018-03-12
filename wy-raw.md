@@ -2,9 +2,11 @@
 ` 26.02.18` `wy1`
 # organizacja
 
-Obecnosc na wykladzie - obowiązkowo
+Obecnosc na wykładzie - obowiązkowo (ale nie ma listy)
 
-[liza](http://liza.umcs.lublin.pl/~skotyra)
+# [Strona na serwerze liza](http://liza.umcs.lublin.pl/~skotyra)<br/>
+uzytkownik: ASyKo<br/>
+Hasło: asYkO
 
 # Prąd
 to jest uporządkowany ruch elektronów lub jonów  
@@ -16,7 +18,7 @@ jony dodatnie i ujemne powstają z kwasów/zasad/soli pod wpływem wody.
 jony dodatnie to kationy, a jony ujemne to aniony.
 
 ### Dysocjacja 
-to kiedy cząsteczka rozpada sie na dwie rożne
+Gdy cząsteczka rozpada sie na dwie rożne
 
 Na przykładzie wody:  
 NaCl : Chloryksod  
@@ -41,7 +43,7 @@ Może to być ogniwo lub bateria
 W baterii + jest przy krótkiej kresce  
 Łączenie szeregowe ogniw, daje sumę arytmetyczną napięć
 
-### Prawa kirchhoff
+### Prawa Kirchhoffa
 1. Kiedy prąd **I** się rozdziela na **I1, I2** to suma ich napięć **I1 + I2** jest równa początkowemu **I1 + I2 = I**  
 2. Suma spadków napięć (np. od resistora), musi być równa napięciu zasilającemu
 
@@ -58,6 +60,8 @@ Czyli, gdy mamy opornik(resistor) **R**, pochloni on tyle napięcia wyjściowego
 Jak widać z wykresu, dla zwykłych oporników, prawo oma jest to po prostu funckja liniowa o współczynniku 1/R.  
 Ale prawo oma nie jest liniowe dla baterii i diody  
 
+## Mostek H
+[PDF o mostkach](http://liza.umcs.lublin.pl/~skotyra/ASK/mostki.pdf)
 
 ## Kondensator
 
@@ -142,7 +146,7 @@ Jak mamy temperaturę = Abs 0, każdy atom Si ma 4 elektrony na powłoce wałenc
 Natomiast gdy temperatura zwiększa się, niektóre z tych elektronów zrywają połączenia, tworząc na tym miejscu **dziurę**  
 
 
-### Def :: powłoka wałencyjna
+### Def :: powłoka walencyjna
 Jest to ostatnia, najdalej odsunięta od jądra powłoka elektronowa atomu. Elektrony na niej są najsłabiej związane z atomem przez co mogą przemieszczać się między sąsiadujące atomy i uczestniczyć w tworzeniu wiązań chemicznych. W przypadku elektronów znajdujących się niżej zazwyczaj nie jest to możliwe, choć są od tego liczne wyjątki.
 ### Def :: pasmo przewodnictwa
 Jest to z analogii obszar w którym elektrony są najsłabiej powiązane z atomem i swobodnie przemieszczają się między nimi.  
