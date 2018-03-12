@@ -130,8 +130,6 @@ Dużo rzeczy komplikuje, dlatego jej często się unika, jak też np. w kursie a
 
 { Si _(krzem)_, Al _(glin)_, Ge } <: Półprzewodniki samoistne
 
-<!-- układy scalone -->
-
 `12.03.18` `wy3`
 
 ## Struktura półprzewodników samoistnych
