@@ -2,9 +2,11 @@
 ` 26.02.18` `wy1`
 # organizacja
 
-Obecnosc na wykladzie - obowiązkowo
+Obecnosc na wykładzie - obowiązkowo (ale nie ma listy)
 
-[liza](http://liza.umcs.lublin.pl/~skotyra)
+# [Strona na serwerze liza](http://liza.umcs.lublin.pl/~skotyra)<br/>
+uzytkownik: ASyKo<br/>
+Hasło: asYkO
 
 # Prąd
 to jest uporządkowany ruch elektronów lub jonów  
@@ -16,14 +18,14 @@ jony dodatnie i ujemne powstają z kwasów/zasad/soli pod wpływem wody.
 jony dodatnie to kationy, a jony ujemne to aniony.
 
 ### Dysocjacja 
-to kiedy cząsteczka rozpada sie na dwie rożne
+Gdy cząsteczka rozpada sie na dwie rożne
 
 Na przykładzie wody:  
 NaCl ∈ Chloryksod  
 C₁₃H₂₂O₁₁ ∈ Sacharoza  
 Gdy powyższe dodamy w wodę odbywa sie dysocjacja  
 H2O Jest nie-symetryczna, to powoduje, że jest ona bardziej pozytywna z jednej strony (H+)  
-![](h2o.jfif)  
+![](assets/h2o.jfif)  
 Przez co, Cl₋ przyciągany jest do H+, a Na₊ jest przyciągany do O-, i tak się rozdzielia  
 W przypadku C₁₃H₂₂O₁₁ → C₁₃H₂₂O₁₁ (nie zmienia się)  
 W przypadku NaCl → Na₊Cl₋   
@@ -37,11 +39,11 @@ Elementy obwodu = Aktywne ∪ Bierne
 ### Źródło napięcia 
 [symbole elektroniki](https://en.wikipedia.org/wiki/Electronic_symbol)  
 Może to być ogniwo lub bateria  
-![](bateria.png)  
+![](assets/bateria.png)  
 W baterii + jest przy krótkiej kresce  
 Łączenie szeregowe ogniw, daje sumę arytmetyczną napięć
 
-### Prawa kirchhoff
+### Prawa Kirchhoffa
 1. Kiedy prąd **I** się rozdziela na **I1, I2** to suma ich napięć **I1 + I2** jest równa początkowemu **I1 + I2 = I**  
 2. Suma spadków napięć (np. od resistora), musi być równa napięciu zasilającemu
 
@@ -50,24 +52,26 @@ W baterii + jest przy krótkiej kresce
 Opór R jest mierzony w Omach  
 
 Czyli, gdy mamy opornik(resistor) **R**, pochloni on tyle napięcia wyjściowego **V**, że na wyjściu będziemy mieć napięcie **I** takie, że **I = V / R**   
-![](ohm.gif)  
+![](assets/ohm.gif)  
 
 `05.03.18` `wy2`
 
-![](omawykres.svg.png)
+![](assets/omawykres.svg.png)
 Jak widać z wykresu, dla zwykłych oporników, prawo oma jest to po prostu funckja liniowa o współczynniku 1/R.  
 Ale prawo oma nie jest liniowe dla baterii i diody  
 
+## Mostek H
+[PDF o mostkach](http://liza.umcs.lublin.pl/~skotyra/ASK/mostki.pdf)
 
 ## Kondensator
 
-![](capacitor.sym.png) Symbol
+![](assets/capacitor.sym.png) Symbol
 
 Jest elementem biernym  
 C = pojemność kondensatora mierzona w Faradach. Jest to inaczej zdolność do utrzymania ładunku  
 
 Prawo oma też nie jest liniowe dla kondensatora. Jego zasilanie wygląda tak:  
-![](capacitor.gif)  
+![](assets/capacitor.gif)  
 Energia zgromadzona przez kondensator to energia pola elektrycznego które utrzymuje ładunki na okładkach kondensatora  
 
 Typy zasilania kondensatora = całkujący ∪ różniczkujący
@@ -98,20 +102,20 @@ Przy 5 × R × C przyjmujemy, że kondensator jest całkowicie naładowany, choc
 
 ### Fala prostokątna
 Tak wygląda fala prostokątna:  
-![](falaprostokatna.jpeg) 
+![](assets/falaprostokatna.jpeg) 
 
 A tak wygląda zasilanie kondensatora na fonie fali prostokątnej:  
-![](capacitor_prostokatny.png)  
-![](capacitor_prostokatny_i.png)  
+![](assets/capacitor_prostokatny.png)  
+![](assets/capacitor_prostokatny_i.png)  
 
 ### Filtr dolnoprzepustowy
 [_low-pass-filter_](https://en.wikipedia.org/wiki/Low-pass_filter)  
 Polega na tym, że zmienność napięcia na źródle napięcią jest _zgładzana_ przez kondensator  
-![](filter.jpg)  
+![](assets/filter.jpg)  
 Widać też, że dolny wykres jest _z opóźnieniem_, oznacza to że ma zmieszczoną fazę
 
 ## Cewka (Element indukcyjny)  
-![](inductor.sym.png) Symbol
+![](assets/inductor.sym.png) Symbol
 
 Przechowuje energie w postaci pola magnetycznego  
 Jest w jakimś stopniu przeciwieństwem kondynsatora  
@@ -142,7 +146,7 @@ Jak mamy temperaturę = Abs 0, każdy atom Si ma 4 elektrony na powłoce wałenc
 Natomiast gdy temperatura zwiększa się, niektóre z tych elektronów zrywają połączenia, tworząc na tym miejscu **dziurę**  
 
 
-### Def : powłoka wałencyjna
+### Def : powłoka walencyjna
 Jest to ostatnia, najdalej odsunięta od jądra powłoka elektronowa atomu. Elektrony na niej są najsłabiej związane z atomem przez co mogą przemieszczać się między sąsiadujące atomy i uczestniczyć w tworzeniu wiązań chemicznych. W przypadku elektronów znajdujących się niżej zazwyczaj nie jest to możliwe, choć są od tego liczne wyjątki.
 ### Def : pasmo przewodnictwa
 Jest to z analogii obszar w którym elektrony są najsłabiej powiązane z atomem i swobodnie przemieszczają się między nimi.  

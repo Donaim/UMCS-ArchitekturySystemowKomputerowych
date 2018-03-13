@@ -25,7 +25,7 @@ NaCl : Chloryksod
 C[1][3]H[2][2]O[1][1] : Sacharoza  
 Gdy powyższe dodamy w wodę odbywa sie dysocjacja  
 H2O Jest nie-symetryczna, to powoduje, że jest ona bardziej pozytywna z jednej strony (H+)  
-![](h2o.jfif)  
+![](assets/h2o.jfif)  
 Przez co, Cl[-] przyciągany jest do H+, a Na[+] jest przyciągany do O-, i tak się rozdzielia  
 W przypadku C[1][3]H[2][2]O[1][1] -> C[1][3]H[2][2]O[1][1] (nie zmienia się)  
 W przypadku NaCl -> Na[+]Cl[-]   
@@ -39,7 +39,7 @@ Elementy obwodu = Aktywne || Bierne
 ### Źródło napięcia 
 [symbole elektroniki](https://en.wikipedia.org/wiki/Electronic_symbol)  
 Może to być ogniwo lub bateria  
-![](bateria.png)  
+![](assets/bateria.png)  
 W baterii + jest przy krótkiej kresce  
 Łączenie szeregowe ogniw, daje sumę arytmetyczną napięć
 
@@ -52,11 +52,11 @@ W baterii + jest przy krótkiej kresce
 Opór R jest mierzony w Omach  
 
 Czyli, gdy mamy opornik(resistor) **R**, pochloni on tyle napięcia wyjściowego **V**, że na wyjściu będziemy mieć napięcie **I** takie, że **I = V / R**   
-![](ohm.gif)  
+![](assets/ohm.gif)  
 
 `05.03.18` `wy2`
 
-![](omawykres.svg.png)
+![](assets/omawykres.svg.png)
 Jak widać z wykresu, dla zwykłych oporników, prawo oma jest to po prostu funckja liniowa o współczynniku 1/R.  
 Ale prawo oma nie jest liniowe dla baterii i diody  
 
@@ -65,13 +65,13 @@ Ale prawo oma nie jest liniowe dla baterii i diody
 
 ## Kondensator
 
-![](capacitor.sym.png) Symbol
+![](assets/capacitor.sym.png) Symbol
 
 Jest elementem biernym  
 C = pojemność kondensatora mierzona w Faradach. Jest to inaczej zdolność do utrzymania ładunku  
 
 Prawo oma też nie jest liniowe dla kondensatora. Jego zasilanie wygląda tak:  
-![](capacitor.gif)  
+![](assets/capacitor.gif)  
 Energia zgromadzona przez kondensator to energia pola elektrycznego które utrzymuje ładunki na okładkach kondensatora  
 
 Typy zasilania kondensatora = całkujący || różniczkujący
@@ -102,20 +102,20 @@ Przy 5 * R * C przyjmujemy, że kondensator jest całkowicie naładowany, chocia
 
 ### Fala prostokątna
 Tak wygląda fala prostokątna:  
-![](falaprostokatna.jpeg) 
+![](assets/falaprostokatna.jpeg) 
 
 A tak wygląda zasilanie kondensatora na fonie fali prostokątnej:  
-![](capacitor_prostokatny.png)  
-![](capacitor_prostokatny_i.png)  
+![](assets/capacitor_prostokatny.png)  
+![](assets/capacitor_prostokatny_i.png)  
 
 ### Filtr dolnoprzepustowy
 [_low-pass-filter_](https://en.wikipedia.org/wiki/Low-pass_filter)  
 Polega na tym, że zmienność napięcia na źródle napięcią jest _zgładzana_ przez kondensator  
-![](filter.jpg)  
+![](assets/filter.jpg)  
 Widać też, że dolny wykres jest _z opóźnieniem_, oznacza to że ma zmieszczoną fazę
 
 ## Cewka (Element indukcyjny)  
-![](inductor.sym.png) Symbol
+![](assets/inductor.sym.png) Symbol
 
 Przechowuje energie w postaci pola magnetycznego  
 Jest w jakimś stopniu przeciwieństwem kondynsatora  
