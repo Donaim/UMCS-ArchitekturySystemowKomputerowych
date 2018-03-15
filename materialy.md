@@ -23,3 +23,7 @@ W rzeczywistości oporniki mają poniższe wartości:
 Oraz ich iloczyny: 1/10, 1, 10, 100, 1000  
 Czyli np. w grupie E12 istnieją oporniki o wartościach 12 Om, 1.2 Om, 120 Om, 1.5 Om, ...  
 
+
+## Mostek H
+[PDF o mostkach](http://liza.umcs.lublin.pl/~skotyra/ASK/mostki.pdf)  
+

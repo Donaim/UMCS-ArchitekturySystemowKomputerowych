@@ -60,9 +60,6 @@ Czyli, gdy mamy opornik(resistor) **R**, pochloni on tyle napięcia wyjściowego
 Jak widać z wykresu, dla zwykłych oporników, prawo oma jest to po prostu funckja liniowa o współczynniku 1/R.  
 Ale prawo oma nie jest liniowe dla baterii i diody  
 
-## Mostek H
-[PDF o mostkach](http://liza.umcs.lublin.pl/~skotyra/ASK/mostki.pdf)
-
 ## Kondensator
 
 ![](assets/capacitor.sym.png) Symbol
