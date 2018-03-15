@@ -167,7 +167,7 @@ Efekt będzie zależać od tego czy dodane pierwiastki mają więcej elektronów
 Jak już było wspomniano, domieszkowanie zmniejsza opór samoistnych półprzewodników, natomiast najwyższa użyteczność powstaje przy połączeniu dwóch materiałów o typie P i typie N.  
 
 ## Dioda
-![](assets/dioda-sym.png) (K: katoda-, A: Anoda+)
+![](assets/dioda-sym.png) (K: katoda-, A: anoda+)
 
 Najbardziej ciekawą częścią diody, jest obszar styku materiałów o typie P i N. Odbywa się na tym obrzaże tzw. _rekombinacja_ elektronów i dziur, co znaczy, że elektrony materiału o typie N, uzyskują dostęp do niższych poziomów w miejscach połączenia pierwiastków materiału typu P, gdzie domyślnie są dziury. Naturalnie powstaje ruch elektronów (=prąd) i uwolnienie energii w postaci światła (najczęściej).  
 
@@ -177,17 +177,26 @@ Dioda przepuszcza prąd tylko w jednym kierunku.
 
 ## Konduktywność diody
 
-Umawiamy się, że dla diody funkcja napięcia jest wyznaczona przez wartość progową gdyż w rzeczywistości ma ona postać wykładniczą.  
+Funckja  po raz pierwszy została podana przez Schokley w postaci równania:  
+I = I<sub>s</sub> * (e <sup>U<sub>d</sub> / (n * V<sub>t</sub>)) </sup> - 1)  
+
+Wzór ten można uprościć, gdyż U<sub>d</sub>, n, V<sub>t</sub> : stałe  
+Niech zatem  
+$a = U<sub>d</sub> / (n * V<sub>t</sub>)  
+Wtedy  
+I = I<sub>s</sub> * (e <sup> $a </sup> - 1)  
+
+Żeby było jeszcze prościej umawiamy się, że dla diody funkcja napięcia jest wyznaczona przez wartość progową chociaż w rzeczywistości ma ona postać wykładniczą.  
 
 ![](assets/diode-graph.png)
 
 Ta wartość progowa jest oszacowywana eksperymentalnie.  
 O to kilka przykładowych wartości:  
-| Model/Material diody | Napięcie progowe |
-| --- | --- |  
-| Ge                   | 0.3 V            |
-| Si                   | 0.7 V            |
-| LED[RGY]             | 1.3 V            |
-| LED[BW]              | 3.0 V            |
+| Model/Material diody <a>| Napięcie progowe |
+|---|---|  
+| Ge                   <a>| 0.3 V            |
+| Si                   <a>| 0.7 V            |
+| LED<sub>RGY</sub>    <a>| 1.3 V            |
+| LED<sub>BW</sub>     <a>| 3.0 V            |
 
 
