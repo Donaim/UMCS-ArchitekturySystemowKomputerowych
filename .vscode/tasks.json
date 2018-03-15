@@ -10,12 +10,18 @@
                 "command": "python3"
             },
             "windows": {
-                "command": "py"
+                "command": ""
             },
             "args": [
+                "py",
                 "replace.lnk.py",
                 "wy-raw.md",
-                "wy.md"
+                "wy.md",
+                ";",
+                "py",
+                "replace.lnk.py",
+                "cz-raw.md",
+                "cz.md"
             ],
             "presentation": {
                 "echo": true,

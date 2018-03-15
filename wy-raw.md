@@ -173,3 +173,21 @@ Najbardziej ciekawą częścią diody, jest obszar styku materiałów o typie P 
 
 ## Dioda + bateria
 Dioda przepuszcza prąd tylko w jednym kierunku.
+
+
+## Konduktywność diody
+
+Umawiamy się, że dla diody funkcja napięcia jest wyznaczona przez wartość progową gdyż w rzeczywistości ma ona postać wykładniczą.  
+
+![](assets/diode-graph.png)
+
+Ta wartość progowa jest oszacowywana eksperymentalnie.  
+O to kilka przykładowych wartości:  
+| Model/Material diody | Napięcie progowe |
+| --- | --- |  
+| Ge                   | 0.3 V            |
+| Si                   | 0.7 V            |
+| LED[RGY]             | 1.3 V            |
+| LED[BW]              | 3.0 V            |
+
+

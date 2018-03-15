@@ -18,3 +18,8 @@ Jak szybko się poruszają? W miedzi: ~1570m/s
 [jak bateria stwarza różnicę potencjałów?](https://physics.stackexchange.com/questions/184848/how-is-a-potential-difference-created-between-two-points)  
 Krótko: chemiczna reakcja w baterii stwarza siłe przyciągającą elektrony do strony oznaczonej -, skąd oni wędrują po obwodzie w celu "wyrównać gęstość" negatywnych i pozytywnych cząsteczek
 
+W rzeczywistości oporniki mają poniższe wartości:  
+![](assets/oporniki-wartosci.png)  
+Oraz ich iloczyny: 1/10, 1, 10, 100, 1000  
+Czyli np. w grupie E12 istnieją oporniki o wartościach 12 Om, 1.2 Om, 120 Om, 1.5 Om, ...  
+
