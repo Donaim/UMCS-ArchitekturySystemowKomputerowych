@@ -186,11 +186,12 @@ I = I<sub>s</sub> × (e <sup> α </sup> - 1)
 
 Ta wartość progowa jest oszacowywana eksperymentalnie.  
 O to kilka przykładowych wartości:  
-| Model/Material diody <a>| Napięcie progowe |
-|---|---|  
-| Ge                   <a>| 0.3 V            |
-| Si                   <a>| 0.7 V            |
-| LED<sub>RGY</sub>    <a>| 1.3 V            |
-| LED<sub>BW</sub>     <a>| 3.0 V            |
+
+| Model/Material diody | Napięcie progowe |
+| --- | --- |  
+| Ge                   | 0.3 V            |
+| Si                   | 0.7 V            |
+| LED<sub>RGY</sub>    | 1.3 V            |
+| LED<sub>BW</sub>     | 3.0 V            |
 
 
