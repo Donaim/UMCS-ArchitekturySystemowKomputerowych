@@ -1,4 +1,3 @@
-# Rysowanie schematow
 
 [o prądzie](https://forbot.pl/blog/kurs-elektroniki-napiecie-prad-opor-zasilanie-id3947)  
 [to też](http://maciejdolata.inelt.pl/podstawy/elektryka-dla-nieelektrykow-czyli-podstawy-podstaw/)  
