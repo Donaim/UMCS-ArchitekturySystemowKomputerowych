@@ -78,25 +78,23 @@ Typy zasilania kondensatora = całkujący || różniczkujący
 
 Niech:
 
-    U = napięcie do którego możemy naladować kondensator
-    I = prąd zasilający
-    I : Stały
-    C = pojemność kondensatora
-    t = czas
-Wtedy:
+U = napięcie do którego możemy naladować kondensator  
+I = prąd zasilający  
+I : Stały  
+C = pojemność kondensatora  
+t = czas  
 
-    U = (I * t) / C
+Wtedy:  
+U = (I * t) / C  
 
-Niech zatem:
+Niech zatem:  
+U<sub>c</sub> = napięcie kondensatora  
+U<sub>z</sub> = napięcie zasilające  
 
-    U[c] = napięcie kondensatora
-    U[z] = napięcie zasilające
-Wtedy:
-
-    U[c] = U[z] * (1 - e ^ (-t / (R * C)))
-
-    R * C : sekundy
-    R * C = stała czasowa
+Wtedy:  
+U<sub>c</sub> = U<sub>z</sub> * ( 1 - e <sup> (-t / (R * C)) </sup>)  
+R * C = stała czasowa  
+R * C : sekundy  
 
 Przy 5 * R * C przyjmujemy, że kondensator jest całkowicie naładowany, chociaż jak to wynika z równania, w rzeczywistości nigdy nie jest całkowicie naładowany.
 
@@ -131,8 +129,7 @@ Dużo rzeczy komplikuje, dlatego jej często się unika, jak też np. w kursie a
 ---
     Półprzewodniki = Samoistne || Domieszkowane
 
-
-{ Si _(krzem)_, Al _(glin)_, Ge } <: Półprzewodniki samoistne
+Si _(krzem)_, Al _(glin)_, Ge : Półprzewodniki samoistne
 
 `12.03.18` `wy3`
 
@@ -161,7 +158,7 @@ Efekt będzie zależać od tego czy dodane pierwiastki mają więcej elektronów
     Jeśli do Si, który ma 4 elektrony, dodamy P, który ma 5, okaże się, że podczas tworzenia sieci, dla tego 1 nadmiarowego elektronu już nie będzie miejsca na powłoce wałencyjnej i przejdzie on na poziom wyżej (poziom _donorowy_), a to też oznacza, że nie będzie tak on mocno przywiązany do jednego miejsca w wyniku czego takie połączenie Si+P zmniejsza opór przewodnika.  
     Takiego typu połączenie nazywamy **typu N** (bo są nadmiarowe elektrony -> Negative potential)   
 - **Mniej**  
-    Jeśli do tego samego Si dodamy Al, który ma 3 elektrony na powłoce wałencyjnej, wtedy w połączeniach między Si a Al będzie brakowało jednego elektronu, co nazywamy _dziurą_. W wyniku utworzenia wolnych miejsc, tutaj podobnie powstaje nowy poziom - _akceptorowy_ co sprzyja szybszemu przemieszczeniu elektronów(dziur) (czyli mniejszej oporności). Tego typu półprzewodniki nazywamy "tupy P" (od Positive bo brakuje elektronów)  
+    Jeśli do tego samego Si dodamy Al, który ma 3 elektrony na powłoce wałencyjnej, wtedy w połączeniach między Si a Al będzie brakowało jednego elektronu, co nazywamy _dziurą_. W wyniku utworzenia wolnych miejsc, tutaj podobnie powstaje nowy poziom - _akceptorowy_ co sprzyja szybszemu przemieszczeniu elektronów(dziur) (czyli mniejszej oporności). Tego typu półprzewodniki nazywamy **tupy P** (od Positive bo brakuje elektronów)  
 
 ## Zalety domieszkowania
 Jak już było wspomniano, domieszkowanie zmniejsza opór samoistnych półprzewodników, natomiast najwyższa użyteczność powstaje przy połączeniu dwóch materiałów o typie P i typie N.  
