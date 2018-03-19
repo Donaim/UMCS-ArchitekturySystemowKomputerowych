@@ -171,7 +171,7 @@ Dioda przepuszcza prąd tylko w jednym kierunku.
 
 ## Konduktywność diody
 
-Funckja  po raz pierwszy została podana przez Schokley w postaci równania:  
+:  
 I = I<sub>s</sub> × (e <sup>U<sub>d</sub> / (n × V<sub>t</sub>)) </sup> - 1)  
 
 Wzór ten można uprościć, gdyż U<sub>d</sub>, n, V<sub>t</sub> ∈ stałe  
@@ -194,4 +194,45 @@ O to kilka przykładowych wartości:
 | LED<sub>RGY</sub>    | 1.3 V            |
 | LED<sub>BW</sub>     | 3.0 V            |
 
+`19.03.18` `wy4`
+
+# Tranzystor
+
+Jest podobny do diody, ale ma 3 warstwy półprzewodnika
+
+![](assets/transistor-structure.png)  
+
+Są więc dwa typy tranzystorów: NPN i PNP  
+Gdzie P to półprzewodnik domieszkowany "pozytywnie" a N odpowiedznio - "negatywnie".  
+Każda z tych części ma nazwę:
+- Emiter (oznaczony przez E) warstwa silnie domieszkowana. Na rysunku - strzałka
+- Baza (oznaczona przez B) warstwa cienka i słabo domieszkowana. Na rysunku - linia prostopadła 
+- Kolektor (oznaczony przez C)
+
+
+Dla tranzystora działa 1 prawo kirchoffa:  
+I<sub>Emitera</sub> = I<sub>Bazy</sub> + I<sub>Collector'a</sub>  
+
+Ale ponadto dla rezystora zachodzi:  
+I<sub>C</sub> = β × I<sub>B</sub>  
+gdzie: β ⇔ h<sub>EF</sub> ⇔ h<sub>21E</sub> ⇔ _"Współczynnik wzmocnienia prądowego"_  
+β ∈ A ∪ B ∪ C  
+gdzie: A $= (100, 200], B $= (200, 400], C $= (400, +∞)  
+
+β mówi o tym ile elektronów kolektora przypada na jeden elektron bazy.  
+Jeśli prąd kolektora jest stały, to prąd bazy w największym stopniu decyduje o prądzie emitera wszystkich pozostałych czynników  
+
+### Przykład 1
+"Wtórnik emiterowy"  
+
+![](assets/wy4-p1.png)  
+Dla kolejnych wartości szukamy rezystancję Baza-Emitor  
+
+| V<sub>p</sub> | β | R₁ | V<sub>R</sub> | I<sub>E</sub> | I<sub>B</sub> | R<sub>B→E</sub> |  
+| --- | --- |  
+| 0.6 V | 100 | 0.6 V | 100 Ω | 0 V | 0 A | 0 A | ∞ Ω |  
+| 0.7 V | 100 | 0.6 V | **100** Ω | 0.1 V | 1 mA | 10 uA | **10** kΩ |  
+| 0.8 V | 100 | 0.6 V | **100** Ω | 0.2 V | 2 mA | 20 uA | **10** kΩ |  
+| 0.7 V | 100 | 0.6 V | **200** Ω | 0.1 V | 0.5 mA | 5 uA | **20** kΩ |  
+| 0.8 V | 100 | 0.6 V | **200** Ω | 0.2 V | 1 mA | 10 uA | **20** kΩ |  
 
