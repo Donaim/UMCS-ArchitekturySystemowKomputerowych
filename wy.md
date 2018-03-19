@@ -229,7 +229,7 @@ Jeśli prąd kolektora jest stały, to prąd bazy w największym stopniu decyduj
 Dla kolejnych wartości szukamy rezystancję Baza-Emitor  
 
 | V<sub>p</sub> | β | R₁ | V<sub>R</sub> | I<sub>E</sub> | I<sub>B</sub> | R<sub>B→E</sub> |  
-| --- | --- |  
+| --- | --- | --- | --- | --- | --- | --- | --- |  
 | 0.6 V | 100 | 0.6 V | 100 Ω | 0 V | 0 A | 0 A | ∞ Ω |  
 | 0.7 V | 100 | 0.6 V | **100** Ω | 0.1 V | 1 mA | 10 uA | **10** kΩ |  
 | 0.8 V | 100 | 0.6 V | **100** Ω | 0.2 V | 2 mA | 20 uA | **10** kΩ |  
