@@ -217,7 +217,7 @@ Ale ponadto dla rezystora zachodzi:
 I<sub>C</sub> = $b * I<sub>B</sub>  
 gdzie: $b <=> h<sub>EF</sub> <=> h<sub>21E</sub> <=> _"Współczynnik wzmocnienia prądowego"_  
 $b : A || B || C  
-gdzie: A $= (100, 200], B $= (200, 400], C $= (400, +$8)  
+gdzie: A ~= (100, 200], B ~= (200, 400], C ~= (400, +$8)  
 
 $b mówi o tym ile elektronów kolektora przypada na jeden elektron bazy.  
 Jeśli prąd kolektora jest stały, to prąd bazy w największym stopniu decyduje o prądzie emitera wszystkich pozostałych czynników  
