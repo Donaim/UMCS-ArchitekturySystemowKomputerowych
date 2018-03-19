@@ -228,7 +228,7 @@ Jeśli prąd kolektora jest stały, to prąd bazy w największym stopniu decyduj
 ![](assets/wy4-p1.png)  
 Dla kolejnych wartości szukamy rezystancję Baza-Emitor  
 
-| V<sub>p</sub> @ $b @ R[1] @ V<sub>R</sub> @ I<sub>E</sub> @ I<sub>B</sub> @ R<sub>B->E</sub> @  
+| V<sub>p</sub> @ $b @ V<sub>B->E</sub> @ R[1] @ V<sub>R</sub> @ I<sub>E</sub> @ I<sub>B</sub> @ R<sub>B->E</sub> @  
 | --- @ --- @ --- @ --- @ --- @ --- @ --- @ --- @  
 | 0.6 V @ 100 @ 0.6 V @ 100 $O @ 0 V @ 0 A @ 0 A @ $8 $O @  
 | 0.7 V @ 100 @ 0.6 V @ **100** $O @ 0.1 V @ 1 mA @ 10 uA @ **10** k$O @  
