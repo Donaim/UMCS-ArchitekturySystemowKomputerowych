@@ -2,7 +2,7 @@
 ` 26.02.18` `wy1`
 # organizacja
 
-Obecność na wykładzie - obowiązkowo (ale nie ma listy)
+Obecność na wykładzie - obowiązkowo (ale nie ma listy, ale są kartkówki)
 
 # [Strona na serwerze liza](http://liza.umcs.lublin.pl/~skotyra)<br/>
 uzytkownik: ASyKo<br/>
@@ -160,7 +160,7 @@ Efekt będzie zależać od tego czy dodane pierwiastki mają więcej elektronów
 ## Zalety domieszkowania
 Jak już było wspomniano, domieszkowanie zmniejsza opór samoistnych półprzewodników, natomiast najwyższa użyteczność powstaje przy połączeniu dwóch materiałów o typie P i typie N.  
 
-## Dioda
+# Dioda
 ![](assets/dioda-sym.png) (K: katoda-, A: anoda+)
 
 Najbardziej ciekawą częścią diody, jest obszar styku materiałów o typie P i N. Odbywa się na tym obszarze tzw. _rekombinacja_ elektronów i dziur, co znaczy, że elektrony materiału o typie N, uzyskują dostęp do niższych poziomów w miejscach połączenia pierwiastków materiału typu P, gdzie domyślnie są dziury. Naturalnie powstaje ruch elektronów (=prąd) i uwolnienie energii w postaci światła (najczęściej).  
@@ -202,37 +202,40 @@ Jest podobny do diody, ale ma 3 warstwy półprzewodnika
 
 ![](assets/transistor-structure.png)  
 
-Są więc dwa typy tranzystorów: NPN i PNP  
+Stąd i z faktu, że _przeciwne strony_ tranzystora powinny mieć ten sam znak, są dwa typy tranzystorów: NPN i PNP  
 Gdzie P to półprzewodnik domieszkowany "pozytywnie" a N odpowiedznio - "negatywnie".  
-Każda z tych części ma nazwę:
-- Emiter (oznaczony przez E) warstwa silnie domieszkowana. Na rysunku - strzałka
-- Baza (oznaczona przez B) warstwa cienka i słabo domieszkowana. Na rysunku - linia prostopadła 
-- Kolektor (oznaczony przez C)
+Każda z tych warstw ma nazwę:
+- Emiter (oznaczany przez E) warstwa silnie domieszkowana. Na rysunku - strzałka
+- Baza (oznaczany przez B) warstwa cienka i słabo domieszkowana. Na rysunku - linia prostopadła 
+- Kolektor (oznaczany przez C)
 
-
-Dla tranzystora działa 1 prawo kirchoffa:  
+### Współczynnik wzmocnienia
+Dla tranzystora działa pierwsze prawo kirchoffa:  
 I<sub>Emitera</sub> = I<sub>Bazy</sub> + I<sub>Collector'a</sub>  
 
 Ale ponadto dla rezystora zachodzi:  
 I<sub>C</sub> = β × I<sub>B</sub>  
-gdzie: β ⇔ h<sub>EF</sub> ⇔ h<sub>21E</sub> ⇔ _"Współczynnik wzmocnienia prądowego"_  
+gdzie: β ⇔ h<sub>EF</sub> ⇔ h<sub>21E</sub> ⇔ _Współczynnik wzmocnienia prądowego_  
+
+Z kolei:  
 β ∈ A ∪ B ∪ C  
 gdzie: A ≈ (100, 200], B ≈ (200, 400], C ≈ (400, +∞)  
 
 β mówi o tym ile elektronów kolektora przypada na jeden elektron bazy.  
-Jeśli prąd kolektora jest stały, to prąd bazy w największym stopniu decyduje o prądzie emitera wszystkich pozostałych czynników  
+Jeśli prąd kolektora jest stały, to spośród wszystkich czynników to prąd bazy w największym stopniu wpływa na prąd emitora  
 
 ### Przykład 1
-"Wtórnik emiterowy"  
 
 ![](assets/wy4-p1.png)  
-Dla kolejnych wartości szukamy rezystancję Baza-Emitor  
+Dla kolejnych wartości V<sub>p</sub> i R₁ szukamy rezystancję Baza-Emiter  
 
 | V<sub>p</sub> | β | V<sub>B→E</sub> | R₁ | V<sub>R</sub> | I<sub>E</sub> | I<sub>B</sub> | R<sub>B→E</sub> |  
 | --- | --- | --- | --- | --- | --- | --- | --- |  
-| 0.6 V | 100 | 0.6 V | 100 Ω | 0 V | 0 A | 0 A | ∞ Ω |  
+| 0.6 V | 100 | 0.6 V | 100 Ω | 0 | 0 | 0 | NAN |  
 | 0.7 V | 100 | 0.6 V | **100** Ω | 0.1 V | 1 mA | 10 uA | **10** kΩ |  
 | 0.8 V | 100 | 0.6 V | **100** Ω | 0.2 V | 2 mA | 20 uA | **10** kΩ |  
 | 0.7 V | 100 | 0.6 V | **200** Ω | 0.1 V | 0.5 mA | 5 uA | **20** kΩ |  
 | 0.8 V | 100 | 0.6 V | **200** Ω | 0.2 V | 1 mA | 10 uA | **20** kΩ |  
 
+Jak widać, w podanym obwodzie, R<sub>B→E</sub> jest funkcją od R₁  
+Stąd nazwa _Tranzystor_ ⇔ _Transformator rezystancji_
