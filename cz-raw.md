@@ -71,3 +71,38 @@ Zauważamy, że D3 jest w zaporowa. Możemy ją wytrzeć.
 Dalsze postępowanie jest analogiczne do przykładu 5.  
 Odpowiedź: 13k3 $O
 
+`20.03.18` `cz4`
+
+# Przykład 1
+
+Do przykładu który był na wykładzie dodamy rezystor  
+
+| U @ V<sub>B</sub> @ R<sub>E</sub> @ I<sub>E</sub> @ I<sub>C</sub> @ R<sub>C</sub> @ V<sub>R<sub>C</sub></sub> @ K @ V<sub>R<sub>E</sub></sub> @  
+| ---   @ --- @ --- @ ---   @ ---       @ ---   @ ---   @ ---   @ ---   @  
+| 5     @ 0.8 @ 200 @ 1 m   @ ~1 m      @ 2 k   @ 3     @ ?     @ 0.2   @  
+| 5     @ 0.9 @ 200 @ 1.5 m @ ~1.5 m    @ 2 k   @ 2     @ -10   @ 0.3   @  
+| 5     @ 0.9 @ 200 @ 1.5 m @ ~1.5 m    @ 1 k   @ 1.5   @ -5    @ 0.3   @  
+| 5     @ 0.8 @ 100 @ 2 m   @ ~2 m      @ 1 k   @ 2     @ -10   @ 0.2   @  
+| 5     @ 0.9 @ 100 @ 3 m   @ ~3 m      @ 1 k   @ 3     @ -5    @ 0.3   @  
+
+
+`27.03.18` `cz5`
+
+# Bramki logiczne
+
+## NOT
+[symulacja](http://tinyurl.com/ycptp8wk)
+
+## AND  
+[symulacja](http://tinyurl.com/ybwdvv3u)  
+
+## OR  
+[symulacja](http://tinyurl.com/y8pnodag)  
+
+## NOR
+[symulacja](http://tinyurl.com/y79hqskc)  
+
+## XOR
+[symulacja (oryginal)](http://tinyurl.com/yc5y8jjn)  
+[symulacja 2](http://tinyurl.com/y869wbe7)  
+
