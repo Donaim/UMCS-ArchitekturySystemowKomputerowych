@@ -27,3 +27,6 @@ Czyli np. w grupie E12 istnieją oporniki o wartościach 12 Om, 1.2 Om, 120 Om, 
 ## Mostek H
 [PDF o mostkach](http://liza.umcs.lublin.pl/~skotyra/ASK/mostki.pdf)  
 
+## Wzmacniacz
+[PDF na lizie](http://liza.umcs.lublin.pl/~skotyra/ASK/wzmacniacz.pdf)  
+[szablon rozwiązania (Wolfram Mathematica)](assets/zd4.nb)  
