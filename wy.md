@@ -239,3 +239,47 @@ Dla kolejnych wartości V<sub>p</sub> i R₁ szukamy rezystancję Baza-Emiter
 
 Jak widać, w podanym obwodzie, R<sub>B→E</sub> jest funkcją od R₁  
 Stąd nazwa _Tranzystor_ ⇔ _Transformator rezystancji_
+
+`09.04.18` `wy6`  
+
+## Charakterystyki tranzystorów  
+Różne tranzystory różnie reagują na zmianę napięcia na bazie  
+
+![](assets/bipolar-chart.png)  
+
+![](assets/unipolar-chart1.png)  
+
+W przypadku J-FETów przewodzą one prąd nawet gdy napięcie na bazie jest 0!  
+![](assets/unipolar-chart2.png)  
+
+# Bramki logiczne - technologie  
+
+Przedstawione na czwiczeniach realizacje bramek logicznych posiadały poniższe wady:
+- mała impedencja wejściowa
+- duża impedencja wyjściowa
+- duży czas propagacji (są wolne)
+
+Taki stosunek impedencji powoduje, że przy połączeniu wielu bramek między sobą, sygnal wyjściowy był by mało podobny do zera czy jedynki.  
+
+Dodatkowo te bramki konsumują dużo prądu. Także np. nie da się ich podłączać do baterii, bo ona zbyt szybo się rozładuje.   
+
+## [TTL](https://en.wikipedia.org/wiki/Transistor%E2%80%93transistor_logic)
+
+Prykładem bramki wypełnionej w tej technologii jest poniższy NAND:  
+![](assets/nand_ttl.png)  
+[Jak płynie prąd w tym obwodzie?](http://tinyurl.com/y9q8vugb)    
+
+Bramki TTL są znacznie lepsze pod względem wymiemionych powyżej wad bramek _naiwnych_, ale niestety też nie rozwiązują problemu dużej konsumpcji mocy.  
+Mimo to, TTL jest stosowana do dzisiaj  
+
+## [CMOS](https://en.wikipedia.org/wiki/CMOS)  
+
+Tak wygląda bramka NOT w technologii CMOS:  
+![](assets/cmos-not.png)
+
+Zaletą tego układu jest to, że nie pobiera prądu wogóle  
+(Tylko gdy przełączamy V<sub>in</sub>)  
+
+
+
+
