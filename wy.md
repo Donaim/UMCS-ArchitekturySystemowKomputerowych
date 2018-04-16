@@ -203,14 +203,14 @@ Jest podobny do diody, ale ma 3 warstwy półprzewodnika
 ![](assets/transistor-structure.png)  
 
 Stąd i z faktu, że _przeciwne strony_ tranzystora powinny mieć ten sam znak, są dwa typy tranzystorów: NPN i PNP  
-Gdzie P to półprzewodnik domieszkowany "pozytywnie" a N odpowiedznio - "negatywnie".  
+Gdzie P to półprzewodnik domieszkowany "pozytywnie" a N - "negatywnie".  
 Każda z tych warstw ma nazwę:
 - Emiter (oznaczany przez E) warstwa silnie domieszkowana. Na rysunku - strzałka
 - Baza (oznaczany przez B) warstwa cienka i słabo domieszkowana. Na rysunku - linia prostopadła 
 - Kolektor (oznaczany przez C)
 
 ### Współczynnik wzmocnienia
-Dla tranzystora działa pierwsze prawo kirchoffa:  
+Dla tranzystora prawdziwe jest pierwsze prawo kirchoffa:  
 I<sub>Emitera</sub> = I<sub>Bazy</sub> + I<sub>Collector'a</sub>  
 
 Ale ponadto dla rezystora zachodzi:  
@@ -222,12 +222,12 @@ Z kolei:
 gdzie: A ≈ (100, 200], B ≈ (200, 400], C ≈ (400, +∞)  
 
 β mówi o tym ile elektronów kolektora przypada na jeden elektron bazy.  
-Jeśli prąd kolektora jest stały, to spośród wszystkich czynników to prąd bazy w największym stopniu wpływa na prąd emitora  
+Jeśli prąd kolektora jest stały, to spośród wszystkich czynników to prąd bazy w największym stopniu wpływa na prąd emitera  
 
 ### Przykład 1
 
 ![](assets/wy4-p1.png)  
-Dla kolejnych wartości V<sub>p</sub> i R₁ szukamy rezystancję Baza-Emiter  
+Dla kolejnych wartości V<sub>p</sub> i R₁ szukamy rezystancji Baza-Emiter  
 
 | V<sub>p</sub> | β | V<sub>B→E</sub> | R₁ | V<sub>R</sub> | I<sub>E</sub> | I<sub>B</sub> | R<sub>B→E</sub> |  
 | --- | --- | --- | --- | --- | --- | --- | --- |  
@@ -237,7 +237,7 @@ Dla kolejnych wartości V<sub>p</sub> i R₁ szukamy rezystancję Baza-Emiter
 | 0.7 V | 100 | 0.6 V | **200** Ω | 0.1 V | 0.5 mA | 5 uA | **20** kΩ |  
 | 0.8 V | 100 | 0.6 V | **200** Ω | 0.2 V | 1 mA | 10 uA | **20** kΩ |  
 
-Jak widać, w podanym obwodzie, R<sub>B→E</sub> jest funkcją od R₁  
+Jak widać, w podanym obwodzie R<sub>B→E</sub> jest funkcją od R₁  
 Stąd nazwa _Tranzystor_ ⇔ _Transformator rezystancji_
 
 `09.04.18` `wy6`  
@@ -249,35 +249,35 @@ Różne tranzystory różnie reagują na zmianę napięcia na bazie
 
 ![](assets/unipolar-chart1.png)  
 
-W przypadku J-FETów przewodzą one prąd nawet gdy napięcie na bazie jest 0!  
+W przypadku J-FETów przewodzą one prąd nawet gdy napięcie na bazie jest równe 0V!  
 ![](assets/unipolar-chart2.png)  
 
 # Bramki logiczne - technologie  
 
-Przedstawione na czwiczeniach realizacje bramek logicznych posiadały poniższe wady:
-- mała impedencja wejściowa
-- duża impedencja wyjściowa
+Przedstawione na ćwiczeniach realizacje bramek logicznych posiadały poniższe wady:
+- mała impedancja wejściowa
+- duża impedancja wyjściowa
 - duży czas propagacji (są wolne)
 
-Taki stosunek impedencji powoduje, że przy połączeniu wielu bramek między sobą, sygnal wyjściowy był by mało podobny do zera czy jedynki.  
+Taki stosunek impadancji powoduje, że przy połączeniu wielu bramek między sobą, sygnal wyjściowy był by mało podobny do zera czy jedynki.  
 
-Dodatkowo te bramki konsumują dużo prądu. Także np. nie da się ich podłączać do baterii, bo ona zbyt szybo się rozładuje.   
+Dodatkowo te bramki konsumują dużo prądu. Także np. nie da się ich podłączać do baterii, bo ona zbyt szybko się rozładuje.   
 
 ## [TTL](https://en.wikipedia.org/wiki/Transistor%E2%80%93transistor_logic)
 
-Prykładem bramki wypełnionej w tej technologii jest poniższy NAND:  
+Przykładem bramki skonstruowanej w tej technologii jest poniższy NAND:  
 ![](assets/nand_ttl.png)  
 [Jak płynie prąd w tym obwodzie?](http://tinyurl.com/y9q8vugb)    
 
 Bramki TTL są znacznie lepsze pod względem wymiemionych powyżej wad bramek _naiwnych_, ale niestety też nie rozwiązują problemu dużej konsumpcji mocy.  
-Mimo to, TTL jest stosowana do dzisiaj  
+Mimo to, technologia TTL jest stosowana do dzisiaj  
 
 ## [CMOS](https://en.wikipedia.org/wiki/CMOS)  
 
 Tak wygląda bramka NOT w technologii CMOS:  
 ![](assets/cmos-not.png)
 
-Zaletą tego układu jest to, że nie pobiera prądu wogóle  
+Zaletą tego układu jest to, że nie pobiera prądu wcale  
 (Tylko gdy przełączamy V<sub>in</sub>)  
 
 
