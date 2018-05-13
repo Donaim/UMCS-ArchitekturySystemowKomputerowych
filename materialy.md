@@ -35,3 +35,11 @@ Czyli np. w grupie E12 istnieją oporniki o wartościach 12 Om, 1.2 Om, 120 Om, 
 [PDF na lizie](http://liza.umcs.lublin.pl/~skotyra/ASK/schmitt.pdf)  
 [symulacja przerzutnika](http://tinyurl.com/y7bvsoo6)  
 [szablon rozwiązania (F#)](assets/schmitt.fsx)  
+
+
+# Dzilanie tranzystorow
+[MOSFET](http://tinyurl.com/y8kyu7r6)  
+[JFET](http://tinyurl.com/yccc7xj5)  
+[BI-POLAR](http://tinyurl.com/yccc7xj5)  
+
+
