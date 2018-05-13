@@ -40,6 +40,6 @@ Czyli np. w grupie E12 istnieją oporniki o wartościach 12 Om, 1.2 Om, 120 Om, 
 # Dzilanie tranzystorow
 [MOSFET](http://tinyurl.com/y8kyu7r6)  
 [JFET](http://tinyurl.com/yccc7xj5)  
-[BI-POLAR](http://tinyurl.com/yccc7xj5)  
+[BI-POLAR](http://tinyurl.com/y7a7mv3j)  
 
 
