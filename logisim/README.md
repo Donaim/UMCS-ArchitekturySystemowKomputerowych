@@ -35,7 +35,7 @@ Marcin Wieczorek 2018
     Mutant który tworzy ALU
 ```
 
-#21-05-2018
+# 21-05-2018
 ```
     21052018.circ
 
